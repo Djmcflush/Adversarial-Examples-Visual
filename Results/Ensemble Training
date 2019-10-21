@@ -1,0 +1,21 @@
+Adversarial Training Results on FGSM attack. MNIST
+Test accuracy on legitimate examples: 0.9846
+Test accuracy on legitimate examples: 0.9912
+Test accuracy on legitimate examples: 0.9929
+Test accuracy on legitimate examples: 0.9927
+Test accuracy on legitimate examples: 0.9929
+Test accuracy on legitimate examples: 0.9937
+Test accuracy on adversarial examples: 0.0615
+Results using Adversarial Ensemble Training
+Test accuracy on legitimate examples: 0.9772
+Test accuracy on adversarial examples: 0.8385
+Test accuracy on legitimate examples: 0.9865
+Test accuracy on adversarial examples: 0.8749
+Test accuracy on legitimate examples: 0.9877
+Test accuracy on adversarial examples: 0.8904
+Test accuracy on legitimate examples: 0.9900
+Test accuracy on adversarial examples: 0.9206
+Test accuracy on legitimate examples: 0.9901
+Test accuracy on adversarial examples: 0.9240
+Test accuracy on legitimate examples: 0.9895
+Test accuracy on adversarial examples: 0.9332
