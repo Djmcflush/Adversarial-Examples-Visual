@@ -3,11 +3,6 @@
 # Tensorflow Version == tf 1.14
 # tf.Keras Version == 2.2.4-tf
 # cleverhans Version == 3.0.1
-# In[ ]:
-
-
-
-# In[ ]:
 
 
 from __future__ import absolute_import
@@ -279,12 +274,17 @@ if __name__ == '__main__':
 f.close
 
 
-
-"""
-This tutorial shows how to generate adversarial examples using FGSM
-and train a model using adversarial training with Keras.
-It is very similar to mnist_tutorial_tf.py, which does the same
-thing but without a dependence on keras.
-The original paper can be found at:
-https://arxiv.org/abs/1412.6572
-"""
+''' Citation for Cleverhans toolbox
+@article{papernot2018cleverhans,
+  title={Technical Report on the CleverHans v2.1.0 Adversarial Examples Library},
+  author={Nicolas Papernot and Fartash Faghri and Nicholas Carlini and
+  Ian Goodfellow and Reuben Feinman and Alexey Kurakin and Cihang Xie and
+  Yash Sharma and Tom Brown and Aurko Roy and Alexander Matyasko and
+  Vahid Behzadan and Karen Hambardzumyan and Zhishuai Zhang and
+  Yi-Lin Juang and Zhi Li and Ryan Sheatsley and Abhibhav Garg and
+  Jonathan Uesato and Willi Gierke and Yinpeng Dong and David Berthelot and
+  Paul Hendricks and Jonas Rauber and Rujun Long},
+  journal={arXiv preprint arXiv:1610.00768},
+  year={2018}
+}
+'''
